@@ -1,0 +1,56 @@
+
+.main_body{
+    width: 60rem;
+    margin-top: 5.5rem;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.main_body > h1{
+    padding-top: 1.3rem;
+    text-align: center;
+    color: #878787;
+    line-height: .1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.cards_div{
+    padding-left: .5rem;
+    padding-right: .5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+
+
+.view_more_div{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+.view_more_div button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .main_body{
+      width: auto;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .cards_div{
+      flex-direction: column wrap ;
+      justify-content: flex-start;
+      margin-left: auto;
+      margin-right: auto;
+      align-items: flex-start;
+      margin-left: 10%;
+  }
+}
